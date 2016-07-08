@@ -1,0 +1,48 @@
+{
+  "name": "sugo-agent-zip",
+  "version": "1.0.0",
+  "description": "Client for sugo-endpoint-zip",
+  "main": "lib",
+  "browser": "sims/browser",
+  "scripts": {
+    "prepublish": "./ci/build.js && ./ci/browser.js",
+    "test": "./ci/test.js"
+  },
+  "repository": "realglobe-Inc/sugo-agent-zip",
+  "keywords": [
+    "SUGOS",
+    "agent"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishitaka.com@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realglobe-Inc/sugo-agent-zip/issues"
+  },
+  "homepage": "https://github.com/realglobe-Inc/sugo-agent-zip#readme",
+  "dependencies": {
+    "azip": "^1.0.6",
+    "co": "^4.6.0",
+    "sugo-agent-base": "^1.2.3",
+    "sugo-endpoint-zip": "^1.0.0"
+  },
+  "devDependencies": {
+    "ape-tmpl": "^5.0.11",
+    "coz": "^6.0.3",
+    "injectmock": "^2.0.0",
+    "sg-server": "^1.2.7",
+    "sugo-agent-base": "^1.2.3",
+    "sugos-assets": "^1.1.8",
+    "sugos-ci": "^1.6.4"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "publishConfig": {
+    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
+  }
+}
