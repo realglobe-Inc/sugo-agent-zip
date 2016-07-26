@@ -1,6 +1,6 @@
 {
   "name": "sugo-agent-zip",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Client for sugo-endpoint-zip",
   "main": "lib",
   "browser": "shim/browser",
