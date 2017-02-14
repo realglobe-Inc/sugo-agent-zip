@@ -5,7 +5,7 @@
   "main": "lib",
   "browser": "shim/browser",
   "scripts": {
-    "prepublish": "./ci/build.js && ./ci/shim.js",
+    "prepare": "./ci/build.js && ./ci/shim.js",
     "test": "./ci/test.js"
   },
   "repository": "realglobe-Inc/sugo-agent-zip",
